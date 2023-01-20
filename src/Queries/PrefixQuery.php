@@ -12,7 +12,8 @@ class PrefixQuery implements Query
         return new self($field, $query);
     }
 
-    public function __construct(string $field, $query) {
+    public function __construct(string $field, $query)
+    {
         $this->field = $field;
         $this->query = $query;
     }
