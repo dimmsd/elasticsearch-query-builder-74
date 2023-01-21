@@ -7,6 +7,9 @@
 
 ---
 
+> **Note**
+> This code use `elasticsearch/elasticsearch` v7.
+
 This package is a _lightweight_ query builder for ElasticSearch. It was specifically built for our [elasticsearch-search-string-parser](https://github.com/spatie/elasticsearch-search-string-parser) so it covers most use-cases but might lack certain features. We're always open for PRs if you need anything specific!
 
 ```php
